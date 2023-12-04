@@ -1,0 +1,18 @@
+[package]
+name = "mempickle"
+version = "0.1.0"
+edition = "2021"
+description = "Store raw structs on disk with 0 serialization"
+license = "MIT"
+repository = "https://github.com/korewaChino/mempickle"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tempfile = "3.8.1"
+
+
+[features]
+default = []
+i_like_breaking_production = []
